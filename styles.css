@@ -1,11 +1,15 @@
-/* your code */
-*{padding:7px;}
-table{border-radius:5px;
-	  border:no;
-	color:black;
-	 font-size:18px;
-	 background-color:b;}
 table>thead{background-color:purple;
-		 color:white; }
-tbody :nth-childchild(odd){ background-color:white;}
-tbody :nth-child(even){background-color:grey;}
+                     color:white;
+                       }
+            table{border-collapse:collapse;
+                  border-radius:12px;
+                 width:100%;
+                 text-align:left;
+                 font-size:18px}
+            thead th:first-child{border-radius:7px 0px 0px 0px;}
+            thead th:last-child{border-radius:0px 7px 0px 0px;}
+            tbody tr:last-child td:last-child{border-radius:0px 0px 7px 0px;}
+            tbody tr:last-child td:first-child{border-radius:0px 0px 0px 7px;}
+            tbody>tr:nth-child(odd){	background-color:white;}
+            tbody>tr:nth-child(even){background-color:grey;}
+            </style>
